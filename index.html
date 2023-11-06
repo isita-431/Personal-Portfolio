@@ -60,7 +60,7 @@
             src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
-            onclick="location.href='www.linkedin.com/in/isita-p'"
+            onclick="location.href='https://www.linkedin.com/in/isita-p/'"
           />
           <img
             src="./assets/github.png"
@@ -72,10 +72,9 @@
       </div>
     </section>
     <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
-      <div class="section-container">
-        <div class="section__pic-container">
+      <h2 class="section-title">About Me</h1>
+      <div class="about__container">
+        <div class="about__img">
           <!-- <img
             src="./assets/about-pic.png"
             alt="Profile picture"
@@ -83,26 +82,6 @@
           /> -->
         </div>
         <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img
-                src="./assets/experience.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Experience</h3>
-              <p>1+ years <br />Data Analyst</p>
-            </div>
-            <div class="details-container">
-              <img
-                src="./assets/education.png"
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <p>MCS at Rice University<br />B.Tech Computer Science at GITAM University</p>
-            </div>
-          </div>
           <div class="text-container">
             <p>
               I am a highly skilled data scientist and automation engineer with a profound expertise in Python, machine learning, and web development.
@@ -119,6 +98,172 @@
         onclick="location.href='./#experience'"
       />
     </section>
+    <section class="qualification section" id="experience">
+      <h2 class="section-title">Experience</h2>
+      <p class="qualification-subtitle-main">My Personal Journey</p>
+
+      <div class="qualification-container container">
+          <div class="qualification-tabs">
+              <div class="qualification-button button--flex qualification-active" data-target="#education">
+                  <i class="uil uil-graduation-cap qualification-icon"></i>
+                  Education
+              </div>
+              <div class="qualification-button button--flex" data-target="#work">
+                  <i class="uil uil-briefcase-alt qualification-icon"></i>
+                  Work
+              </div>
+          </div>
+
+          <div class="qualification-sections">
+              <div class="qualification-content qualification-active" data-content id="education">
+
+                  <div class="qualification-data">
+                      <div>
+                          <h3 class="qualification-title">Master's in Computer Science</h3>
+                          <span class="qualificaiton-subtitle">Rice University</span>
+                          <div class="qualification-calendar">
+                              <i class="uil uil-calendar-alt"></i>
+                              2023 - 2025
+                          </div>
+                      </div>
+                          
+                      <div class="qualification-progress">
+                          <span class="qualification-rounder"></span>
+                          <span class="qualification-line"></span>
+                      </div>
+                  </div>
+
+                  <div class="qualification-data">
+                      <div></div>
+                      <div class="qualification-progress">
+                          <span class="qualification-rounder"></span>
+                          <span class="qualification-line"></span>
+                      </div>
+                      <div>
+                          <h3 class="qualification-title">Bachelor's in Computer Science and Engineering</h3>
+                          <span class="qualificaiton-subtitle">Gitam University</span>
+                          <div class="qualification-calendar">
+                              <i class="uil uil-calendar-alt"></i>
+                              2019 - 2023
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="qualification-data">
+                      <div>
+                          <h3 class="qualification-title">High School</h3>
+                          <span class="qualificaiton-subtitle">Sri Chaitanya</span>
+                          <div class="qualification-calendar">
+                              <i class="uil uil-calendar-alt"></i>
+                              2017 - 2019
+                          </div>
+                      </div>
+                      <div class="qualification-progress">
+                          <span class="qualification-rounder"></span>
+                          <span class="qualification-line"></span>
+                      </div>
+                  </div>
+
+                  <div class="qualification-data">
+                      <div></div>
+                      <div class="qualification-progress">
+                          <span class="qualification-rounder"></span>
+                      </div>
+                      <div>
+                          <h3 class="qualification-title">Secondary School</h3>
+                          <span class="qualificaiton-subtitle">Oakridge</span>
+                          <div class="qualification-calendar">
+                              <i class="uil uil-calendar-alt"></i>
+                              2007 - 2017
+                          </div>
+                      </div>
+                  </div>
+
+              </div>
+
+              <div class="qualification-content" data-content id="work">
+
+                  <div class="qualification-data">
+                      <div>
+                          <h3 class="qualification-title">Automation Engineer</h3>
+                          <span class="qualificaiton-subtitle">Footsteps LLC (Amazon Delivery Partner)</span>
+                          <div class="qualification-calendar">
+                              <i class="uil uil-calendar-alt"></i>
+                              February 2023 - July 2023
+                          </div>
+                      </div>
+
+                      <div class="qualification-progress">
+                          <span class="qualification-rounder"></span>
+                          <span class="qualification-line"></span>
+                      </div>
+                  </div>
+
+                  <div class="qualification-data">
+                      <div></div>
+                      <div class="qualification-progress">
+                          <span class="qualification-rounder"></span>
+                          <span class="qualification-line"></span>
+                      </div>
+                      <div>
+                          <h3 class="qualification-title">Data Science Intern</h3>
+                          <span class="qualificaiton-subtitle">Pharmapro Tivra Health LLP</span>
+                          <div class="qualification-calendar">
+                              <i class="uil uil-calendar-alt"></i>
+                              October 2022 - July 2023
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="qualification-data">
+                      <div>
+                          <h3 class="qualification-title">Research Intern</h3>
+                          <span class="qualificaiton-subtitle">University of Illinois Urbana Champaign</span>
+                          <div class="qualification-calendar">
+                              <i class="uil uil-calendar-alt"></i>
+                              June 2022 - July 2023
+                          </div>
+                      </div>
+                      <div class="qualification-progress">
+                          <span class="qualification-rounder"></span>
+                          <span class="qualification-line"></span>
+                      </div>
+                  </div>
+                  
+                  <div class="qualification-data">
+                    <div></div>
+                    <div class="qualification-progress">
+                        <span class="qualification-rounder"></span>
+                        <span class="qualification-line"></span>
+                    </div>
+                    <div>
+                        <h3 class="qualification-title">Data Analyst Intern</h3>
+                        <span class="qualificaiton-subtitle">Sidekick EDGE</span>
+                        <div class="qualification-calendar">
+                            <i class="uil uil-calendar-alt"></i>
+                            June 2022 - March 2023
+                        </div>
+                    </div>
+                </div>
+
+                <div class="qualification-data">
+                  <div>
+                      <h3 class="qualification-title">Technical Content Intern</h3>
+                      <span class="qualificaiton-subtitle">GeeksForGeeks</span>
+                      <div class="qualification-calendar">
+                          <i class="uil uil-calendar-alt"></i>
+                          August 2021 - June 2023
+                      </div>
+                  </div>
+                  <div class="qualification-progress">
+                      <span class="qualification-rounder"></span>
+                  </div>
+              </div>
+
+              </div>
+          </div>
+      </div>
+  </section>
     <section id="experience">
       <p class="section__text__p1">Explore My</p>
       <h1 class="title">Experience</h1>
