@@ -10,10 +10,11 @@
   </head>
   <body>
     <nav id="desktop-nav">
-      <div>
+      <div class="nav-links-container">
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -31,6 +32,7 @@
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
@@ -73,7 +75,7 @@
       src="./assets/arrow.png"
       alt="Arrow icon"
       class="icon arrow"
-      onclick="location.href='./#experience'"
+      onclick="location.href='./#about'"
     />
     </section>
     <section id="about">
@@ -142,7 +144,6 @@
                       <div></div>
                       <div class="qualification-progress">
                           <span class="qualification-rounder"></span>
-                          <span class="qualification-line"></span>
                       </div>
                       <div>
                           <h3 class="qualification-title">Bachelor's in Computer Science and Engineering</h3>
@@ -154,35 +155,6 @@
                       </div>
                   </div>
 
-                  <div class="qualification-data">
-                      <div>
-                          <h3 class="qualification-title">High School</h3>
-                          <span class="qualificaiton-subtitle">Sri Chaitanya</span>
-                          <div class="qualification-calendar">
-                              <i class="uil uil-calendar-alt"></i>
-                              2017 - 2019
-                          </div>
-                      </div>
-                      <div class="qualification-progress">
-                          <span class="qualification-rounder"></span>
-                          <span class="qualification-line"></span>
-                      </div>
-                  </div>
-
-                  <div class="qualification-data">
-                      <div></div>
-                      <div class="qualification-progress">
-                          <span class="qualification-rounder"></span>
-                      </div>
-                      <div>
-                          <h3 class="qualification-title">Secondary School</h3>
-                          <span class="qualificaiton-subtitle">Oakridge</span>
-                          <div class="qualification-calendar">
-                              <i class="uil uil-calendar-alt"></i>
-                              2007 - 2017
-                          </div>
-                      </div>
-                  </div>
 
               </div>
 
@@ -272,7 +244,7 @@
       src="./assets/arrow.png"
       alt="Arrow icon"
       class="icon arrow"
-      onclick="location.href='./#experience'"
+      onclick="location.href='./#skills'"
     />
   </section>
     <section id="skills">
@@ -651,21 +623,27 @@
           </div>
         </div>
       </div>
+      <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#projects'"
+    />
     </section>
     <section id="projects">
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
-        <div class="about-containers">
+        <div class="project-containers">
           <div class="details-container color-container">
-            <div class="article-container">
+            <div class="project-container">
               <img
-                src="./assets/project-1.png"
+                src="./assets/undraw_education_f8ru.svg"
                 alt="Project 1"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
+            <h2 class="experience-sub-title project-title">Grad School Predictor</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -682,48 +660,48 @@
             </div>
           </div>
           <div class="details-container color-container">
-            <div class="article-container">
+            <div class="project-container">
               <img
-                src="./assets/project-2.png"
+                src="./assets/undraw_netflix_q-00-o.svg"
                 alt="Project 2"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <h2 class="experience-sub-title project-title">Film Recommendation System</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/isita-431/Film-recommendation'"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/isita-431/Film-recommendation'"
               >
                 Live Demo
               </button>
             </div>
           </div>
           <div class="details-container color-container">
-            <div class="article-container">
+            <div class="project-container">
               <img
-                src="./assets/project-3.png"
+                src="./assets/undraw_questions_re_1fy7.svg"
                 alt="Project 3"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <h2 class="experience-sub-title project-title">Quiz Application</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/isita-431/Quiz-App-with-database'"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/isita-431/Quiz-App-with-database'"
               >
                 Live Demo
               </button>
@@ -775,6 +753,7 @@
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
