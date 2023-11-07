@@ -244,8 +244,7 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
-  margin: 0 10rem;
+  margin: 0 8rem;
   box-sizing: border-box;
   min-height: fit-content;
 }
@@ -262,6 +261,7 @@ section {
   justify-content: center;
   gap: 6rem;
   height: 80vh;
+  position: relative;
 }
 
 .section__pic-container {
@@ -368,15 +368,26 @@ section {
 }
 
 /* ABOUT SECTION */
+#landing{
+  position: relative;
+}
 
 #about {
   position: relative;
 }
 
+.about__container{
+  display: flex;
+  
+}
 .about-containers {
+  display: flex;
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .about-details-container {
@@ -384,8 +395,6 @@ section {
   flex-direction: column;
 }
 
-
-.about-containers,
 .about-details-container {
   display: flex;
 }
@@ -400,6 +409,10 @@ section {
   bottom: 2.5rem;
 }
 
+.arrow-land{
+  right: 15rem;
+}
+
 .details-container {
   padding: 1.5rem;
   flex: 1;
@@ -408,6 +421,7 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  flex-grow: 1;
 }
 
 .section-container {
@@ -963,6 +977,10 @@ section {
 }
 
 /* EXPERIENCE SECTION */
+
+#skills {
+  position: relative;
+}
 
 #experience {
   position: relative;
