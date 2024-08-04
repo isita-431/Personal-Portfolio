@@ -722,6 +722,7 @@ a:hover {
 
 .project-containers {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: flex-start;
   gap: 3rem;
@@ -733,10 +734,10 @@ a:hover {
   display: flex;
   text-align: initial;
   flex-wrap: wrap;
-  flex-direction: row;
   gap: 2.5rem;
-  max-width: 30rem;
+  max-width: 25rem;
   justify-content: space-around;
+  max-height: 50rem;
 }
 
 .project-container img {
@@ -764,6 +765,7 @@ article .icon {
   margin: 1rem 2rem;
   color: black;
   min-height: 6rem;
+  font-size: 1.5rem;
 }
 
 .project-btn {
